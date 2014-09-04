@@ -637,3 +637,8 @@ if (typeof define === 'function' && define.amd) {
         return Channel;
     });
 }
+
+// enable Node.JS requiring
+if (module !== undefined && module.exports !== undefined) {
+    module.exports = Channel;
+}
