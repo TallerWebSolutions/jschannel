@@ -639,6 +639,6 @@ if (typeof define === 'function' && define.amd) {
 }
 
 // enable Node.JS requiring
-if (module !== undefined && module.exports !== undefined) {
+if (typeof module !== 'undefined' && module.exports !== undefined) {
     module.exports = Channel;
 }
