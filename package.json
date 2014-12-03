@@ -1,0 +1,23 @@
+{
+  "name": "jschannel",
+  "version": "0.0.5",
+  "description": "A JavaScript library which implements fancy IPC semantics on top of postMessage.",
+  "main": "src/jschannel.js",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meenie/jschannel.git"
+  },
+  "author": "Lloyd Hilaiel",
+  "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+  "bugs": {
+    "url": "https://github.com/meenie/jschannel/issues"
+  },
+  "homepage": "http://mozilla.github.com/jschannel/docs/"
+}
